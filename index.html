@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Loading scripts at top of page for faster game loading -->
+    <script src ="assets/js/enemy.js"></script>
+    <script src ="assets/js/gamemanager.js"></script>
+    <script src ="assets/js/player.js"></script>
+  
+    
+</head>
+<body>
+    <div class="header">
+        <p>Kingdom Hearts Battle Arena</p>
+        <h2>Choose your hero</h2>
+    </div>
+    
+    <div class="interface">
+        <a href="#" onclick="gameManager.setGameStart('Sora')">
+            <img src="assets/images/avatar-player/sora.png" alt="Sora">
+            <div>
+                <h3>Sora</h3>
+                <p> Original keyblade user. Strong fighter with higher health and stamina.  </p>
+            </div>
+        </a>
+         <a href="#" onclick="gameManager.setGameStart('Aqua')">
+            <img src="assets/images/avatar-player/aqua.png" alt="Aqua">
+            <div>
+                <h3>Aqua</h3>
+                <p> Nimble fighter with high agility. Dual wield for double attacks. </p>
+            </div>
+        </a>
+         <a href="#" onclick="gameManager.setGameStart('Riku')">
+            <img src="assets/images/avatar-player/riku.png" alt="Riku">
+            <div>
+                <h3>Riku</h3>
+                <p> Strong fighter with on hit abilities. Special powers </p>
+            </div>
+        </a>
+         <a href="#" onclick="gameManager.setGameStart('Mickey')">
+            <img src="assets/images/avatar-player/mickey.jpg" alt="Mickey">
+            <div>
+                <h3>Mickey</h3>
+                <p> The original mickey mouse. Can summon other disney characters for extra damage </p>
+            </div>
+        </a> 
+    
+    </div>
+    
+    <div class="actions">
+       
+    </div>
+    
+    <div class="arena">
+      
+        
+    </div>
+    
+    <div class="enemy">
+    
+    </div>
+</body>
+</html>
